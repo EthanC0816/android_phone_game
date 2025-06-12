@@ -73,7 +73,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7724191262654332971}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cloud5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,7 +111,7 @@ GameObject:
   - component: {fileID: 5738408434902635343}
   - component: {fileID: 6693110434673843436}
   - component: {fileID: 6173145634580331182}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cloud5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 2689194790737506898}
   - component: {fileID: 3672937676624107504}
   - component: {fileID: 8299129228635520453}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cloud5 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -379,7 +379,7 @@ GameObject:
   - component: {fileID: 979674910866217671}
   - component: {fileID: 5124941076296404466}
   - component: {fileID: 3615460425530399673}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cloud5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -513,7 +513,7 @@ GameObject:
   - component: {fileID: 530337566847046604}
   - component: {fileID: 5783406823646412689}
   - component: {fileID: 2675271561484101332}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cloud5 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -647,7 +647,7 @@ GameObject:
   - component: {fileID: 6605694274543469047}
   - component: {fileID: 2055795489867937808}
   - component: {fileID: 1937854365941051285}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cloud5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
