@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using System.Collections;
 public class GrapplingGun : MonoBehaviour
 {
     [SerializeField] private float grappleLength;
@@ -8,6 +8,7 @@ public class GrapplingGun : MonoBehaviour
 
     private Vector3 grapplePoint;
     private DistanceJoint2D joint;
+    
 
     private void Start()
     {
@@ -29,7 +30,7 @@ public class GrapplingGun : MonoBehaviour
             layerMask: grappleLayer);
 
             if (touch.phase == TouchPhase.Began)
-
+            {
                 if (hit.collider != null)
                 {
                     grapplePoint = hit.point;
@@ -39,17 +40,23 @@ public class GrapplingGun : MonoBehaviour
                     joint.distance = grappleLength;
                     rope.SetPosition(0, grapplePoint);
                     rope.SetPosition(1, transform.position);
-                    rope.enabled = true; 
+                    rope.enabled = true;
+                    
                 }
-                else if (touch.phase == TouchPhase.Ended)
-                {
-                    joint.enabled = false;
-                    rope.enabled = false;
-                }
+
+            }
+
+            else if (touch.phase == TouchPhase.Ended)
+            {
+                joint.enabled = false;
+                rope.enabled = false;
+                
+            }
+  
 
         }
 
-        if(rope.enabled == true)
+        if (rope.enabled == true)
         {
             rope.SetPosition(1,transform.position);
         }
